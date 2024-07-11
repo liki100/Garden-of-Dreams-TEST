@@ -98842,7 +98842,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -101358,8 +101358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spawnCount: 3
   _monsterTemplate: {fileID: 7927592211639602893, guid: bcbae21602cadce43859428cf3e4a207, type: 3}
-  _topLeftPoint: {x: -11.5, y: 7.5}
-  _bottomRightPoint: {x: 11.5, y: -7.5}
+  _topLeftPoint: {x: -35, y: 22}
+  _bottomRightPoint: {x: 35, y: -22}
   _radiusCheckSpawn: 0.5
 --- !u!4 &1697809233
 Transform:
@@ -102373,6 +102373,10 @@ PrefabInstance:
     - target: {fileID: 3471578181521538479, guid: dbfe108f4c10c014db385ba2cc052d58, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806342663489699957, guid: dbfe108f4c10c014db385ba2cc052d58, type: 3}
+      propertyPath: _speed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4232993098541943822, guid: dbfe108f4c10c014db385ba2cc052d58, type: 3}
       propertyPath: m_Layer
